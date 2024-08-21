@@ -1,0 +1,205 @@
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 900;
+    font-size: 3.157em;
+    color: #23282E;
+}
+
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    color: #23282E;
+    font-size: 2.369em;
+}
+
+h3 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    font-size: 1.333em;
+    color: #23282E;
+    line-height: 35px;
+}
+
+h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    color: #23282E;
+    font-size: 1em;
+    margin: 0;
+}
+
+.body2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-weight: bold;
+    color: grey;
+    margin: 0;
+}
+
+.a {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 1em;
+    color: #23282E !important;
+}
+
+.link {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-size: 1em;
+    color: #23282E !important;
+}
+
+.fontsize {
+    font-size: 14px;
+}
+
+body {
+    background-color: #D7D6D1;
+}
+
+.jumbotron {
+    background-color: transparent !important;
+}
+
+.navbar {
+    background-color: transparent !important;
+
+}
+
+.dropdown-menu {
+    background-color: #eeeeee;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: #3A4147;
+}
+
+.dropdown-item {
+    background-color: #eeeeee;
+}
+
+
+/* change the link color */
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: #3A4147;
+    background-color: transparent !important;
+}
+
+/* change the brand and text color */
+font-family: 'IBM Plex Sans',
+sans-serif;
+font-weight: 500;
+color: #3A4147;
+}
+
+.card {
+    background-color: transparent !important;
+
+}
+
+html,
+body {
+    height: 100%
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    /* Vertically center the text there */
+    background-color: #222222;
+
+}
+
+
+section1 {
+    padding: 2rem;
+    background-color: #CBCAC5;
+}
+
+.bg-primary {
+    background-color: #CBCAC5 !important;
+    color: #fff;
+}
+
+.bg-gray {
+    background-color: #CBCAC5;
+}
+
+.intro {
+    width: 750px;
+}
+
+$theme-colors: ("primary": #3A417,
+
+
+);
+
+.btn-primary:hover {
+    background-color: transparent !important;
+    border: 1px solid;
+    border-color: #23282E;
+    border-radius: 0 !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: #23282E;
+}
+
+
+
+.button {
+
+    background-color: transparent !important;
+    border: 1px solid;
+    border-color: #23282E;
+    border-radius: 0 !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: #23282E;
+}
+
+
+.btn-primary {
+
+    background-color: transparent !important;
+    border: 1px solid;
+    border-color: #23282E;
+    border-radius: 0 !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: #23282E;
+}
+
+.card-title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    color: #23282E;
+    font-size: 1.369em;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    color: #23282E;
+    font-size: 1em;
+    margin: 0;
+}
+
+.card {
+    background-color: #eeeeee !important;
+}

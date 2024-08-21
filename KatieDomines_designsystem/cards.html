@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Override bootstrap CSS -->
+    <link rel="stylesheet" href="../css/custom.css">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-5 mb-3 ml-5 mr-5 pl-5 pr-5">
+        <!-- Brand -->
+        <a class="navbar-brand" href="kdomines/designsystem/index.html">Katie Domines</a>
+
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Foundation
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="typography.html">Typography</a>
+                    <a class="dropdown-item" href="color.html">Colors</a>
+                    <a class="dropdown-item" href="logo.html">Logo</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Components
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="cards.html">Cards</a>
+                    <a class="dropdown-item" href="navigation.html">Navigation</a>
+                    <a class="dropdown-item" href="footer.html">Footer</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Page Patterns
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="homepage.html">Homepage</a>
+                    <a class="dropdown-item" href="about.html">About</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid mt-5 ml-5 mr-5 pl-5 pr-5 mb-1">
+        <h1>Cards</h1>
+        <p class="intro mt-3">There are two different types of cards. The first card contains a box with text and link buttons only. The second type of type card cotntains a box with an image, text, and occasionally link buttons. Read below to see which instances they would be used in. </p>
+    </div>
+
+
+
+    <div class="container mt-3 ml-5 mr-5 pl-5 pr-5 mb-5">
+        <h2>Accessibility</h2>
+        <p>Ensure that text has a high contrast against the card background color. Ensure that any images inside cards have an alt-text. Avoid too much functionality and reduce tab stops. To read more about cards and accessibility, click <a href="https://inclusive-components.design/cards/" class="link">here</a>.</p>
+    </div>
+
+
+    <div class="container pt-5 mt-5 ml-5 mr-5 pl-5 pr-5 mb-1 pb-5">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card" style="width:500px">
+                        <div class="card-body">
+                            <h4 class="card-title">Card With Link Only</h4>
+                            <p>This is the use of a card with text only. This would be used in sections of the about me page or sections of a case study of this portfolio. A link/button may also be omitted.</p>
+                            <center><a href="type.html" class="btn btn-primary">Link Example</a></center>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-sm-6">
+
+                    <p></p>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-sm-4">
+            <div class="card mb-4 mt-4 " style="width:500px">
+                <img class="card-img-top" src="img/cardimage.jpg" max-width="40%" height="auto" alt="BW Logo">
+                <div class="card-body">
+                    <h4 class="card-title">Card with an Image</h4>
+                    <p class="card-text">This is the use of a card if there were an image involved. This is used on the homepage displaying featured case studies on this portfolio. </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container ml-5 mr-5 pl-5 pr-5 mb-5 pb-5">
+
+        <h2> Code </h2>
+
+        <pre><code>
+        
+        Without Image:
+        
+        
+        &lt;div class=&quot;card&quot; style=&quot;width:500px&quot;&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h4 class=&quot;card-title&quot;&gt;Card With Link Only&lt;/h4&gt;
+                    &lt;p class=&quot;card-text&quot;&gt;This is the use of a card with text only. This would be used in sections of the about me page or sections of a case study of this portfolio. A link/button may also be omitted.&lt;/p&gt;
+                     &lt;a href=&quot;type.html&quot; class=&quot;btn btn-primary&quot;&gt;Type Hierarchies&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+        
+        
+        With Image:
+        
+        &lt;div class=&quot;col-sm-4&quot;&gt;
+            &lt;div class=&quot;card mb-4 mt-4 &quot; style=&quot;width:500px&quot;&gt;
+                &lt;img class=&quot;card-img-top&quot; src=&quot;img/cardimage.jpg&quot; max-width=&quot;40%&quot; height=&quot;auto&quot; alt=&quot;BW Logo&quot;&gt;
+                &lt;div class=&quot;card-body&quot;&gt;
+                    &lt;h4 class=&quot;card-title&quot;&gt;Card with an Image&lt;/h4&gt;
+                    &lt;p class=&quot;card-text&quot;&gt;This is the use of a card if there were an image involved. This is used on the homepage displaying featured case studies on this portfolio. &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        
+        
+</code></pre>
+
+    </div>
+
+
+    <div class="footer fixed-bottom">
+        <div class="container">
+            <span class="text-muted">Created for HCI 472: Design Fundamentals.</span>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body></html>
